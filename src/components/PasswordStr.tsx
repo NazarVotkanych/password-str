@@ -16,9 +16,9 @@ export const PasswordStr: React.FC<PasswordStrProps> = ({ password }) => {
         return 'Very Weak';
       case PasswordStrength.WEAK:
         return 'Weak';
-      case PasswordStrength.FAIR:
+      case PasswordStrength.EASY:
         return 'Fair';
-      case PasswordStrength.GOOD:
+      case PasswordStrength.MEDIUM:
         return 'Good';
       case PasswordStrength.STRONG:
         return 'Strong';
